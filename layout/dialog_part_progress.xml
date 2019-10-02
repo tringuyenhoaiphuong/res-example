@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sdl__progressPanel" style="@style/SDL.Group"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/sdl__progress" android:layout_marginRight="@dimen/grid_1" style="@style/SDL.Progress" />
+    <include layout="@layout/dialog_part_message" />
+</LinearLayout>

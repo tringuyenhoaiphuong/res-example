@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_header"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/item_nav_drawer_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/nav_icon_apps" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_margin="10.0dip" android:src="@drawable/ic_drawer_header" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/nav_name_apps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_app_name" android:layout_toRightOf="@id/nav_icon_apps" android:layout_centerHorizontal="true" style="@style/NavName" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/nav_des_apps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nav_app_des" android:layout_toRightOf="@id/nav_icon_apps" android:layout_below="@id/nav_name_apps" style="@style/TextThemeDark.Micro" />
+    </RelativeLayout>
+</LinearLayout>

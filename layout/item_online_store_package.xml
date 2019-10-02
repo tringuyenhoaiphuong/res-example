@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/online_store_package_status_icon" android:src="@drawable/online_store_package_download" style="@style/ImageView.Vertical" />
+    <ImageView android:id="@id/online_store_package_menu_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/store_overflow_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/online_store_package_name" android:text="PackageName" style="@style/OnlineStoreName" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/online_store_package_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Description" android:layout_toLeftOf="@id/online_store_package_premium" android:layout_below="@id/online_store_package_name" android:layout_alignLeft="@id/online_store_package_name" style="@style/TextThemeLight.Small" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/online_store_package_premium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Premium" android:layout_toLeftOf="@id/online_store_package_size" android:layout_below="@id/online_store_package_name" android:layout_alignBaseline="@id/online_store_package_size" android:layout_alignParentBottom="true" style="@style/Store_label_premium" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/online_store_package_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30MB" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/TextThemeLight.Small" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sdl__contentPanel" style="@style/SDL.Group.Wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sdl__message" android:layout_width="fill_parent" style="?attr/sdlMessageTextStyle" />
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/FrameBackground">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:gravity="center_horizontal" android:id="@id/lesson_review_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ReviewName" />
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lesson_review_category_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ReviewCategoryName" />
+            <com.rainbowedu.toeicguru.ui.customview.SquareLinearLayout android:gravity="center" android:id="@id/lesson_review_score_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lesson_review_score" style="@style/ReviewScore" />
+            </com.rainbowedu.toeicguru.ui.customview.SquareLinearLayout>
+            <LinearLayout android:gravity="clip_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TIME SPENT" style="@style/ReviewSubInfo" />
+                    <View android:background="@color/color_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lesson_review_time_spent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextThemeLight.XMedium" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FINISHED ON" style="@style/ReviewSubInfo" />
+                    <View android:background="@color/color_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lesson_review_finished_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextThemeLight.XMedium" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.rainbowedu.toeicguru.ui.customview.ExpandableHeightGridView android:id="@id/lesson_review_grid_questions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:numColumns="5" style="@style/ReviewGridQuestions" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/ButtonWrapper">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lesson_review_button_reset" android:text="Reset" customfonts:font="@string/font_toeicguru_bold" style="@style/ButtonCircle" />
+    </LinearLayout>
+</RelativeLayout>

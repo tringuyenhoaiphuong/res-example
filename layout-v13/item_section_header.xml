@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/textSeparator" android:background="@android:color/transparent" android:textAllCaps="true" style="@style/CategoryItemSectionName"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto" />

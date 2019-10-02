@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lesson_loading_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_circle_large" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_practice_less_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <RelativeLayout android:background="@drawable/status_bar_background" android:paddingLeft="10.0dip" android:paddingTop="1.0dip" android:paddingRight="10.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:textSize="@dimen/text_xmedium_lato" android:textColor="@color/text_theme_light_green" android:id="@id/status_current_question_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_progress_green" android:drawablePadding="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" customfonts:font="@string/font_lato_light" />
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:textSize="@dimen/text_xmedium_lato" android:textColor="@color/text_theme_light" android:id="@id/status_elapsed_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_timer" android:drawablePadding="4.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" customfonts:font="@string/font_lato_light" />
+        </RelativeLayout>
+        <ScrollView android:scrollbarThumbVertical="@drawable/list_view_thumb" android:scrollbarTrackVertical="@drawable/list_view_track" android:scrollbarStyle="outsideOverlay" android:id="@id/scrollbar_lesson_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+            <FrameLayout android:orientation="vertical" android:id="@id/question_fragment_content" android:paddingBottom="70.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout style="@style/ButtonWrapper">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/practice_lesson_submit_question" android:text="Submit" customfonts:font="@string/font_toeicguru_bold" style="@style/ButtonCircle" />
+    </LinearLayout>
+</RelativeLayout>

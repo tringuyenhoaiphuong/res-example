@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dictionary_viewholder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ScrollView android:scrollbarThumbVertical="@drawable/list_view_thumb" android:scrollbarTrackVertical="@drawable/list_view_track" android:scrollbarStyle="outsideOverlay" android:id="@id/question_review_scroll_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/dictionary_viewholder" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@id/question_review_content" android:background="@color/background_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:layout_gravity="center_horizontal" android:id="@id/admod" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_admob" />
+    </FrameLayout>
+</RelativeLayout>

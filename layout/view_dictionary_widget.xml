@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dictionary_view" android:background="@color/background_light" android:paddingLeft="@dimen/spacing_normal" android:paddingRight="@dimen/spacing_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/dictionary_loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="45.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_circle_small" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/dictionary_content_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/dictionary_source_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/dictionary_speaker" style="@style/TextThemeLight.Large" />
+        <ImageButton android:id="@id/dictionary_favorite" android:background="@android:color/transparent" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_star_inactive" android:layout_toRightOf="@id/dictionary_source_word" />
+        <ImageButton android:id="@id/dictionary_history" android:background="@android:color/transparent" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_history" android:layout_toRightOf="@id/dictionary_favorite" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:ellipsize="end" android:id="@id/dictionary_meaning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/dictionary_source_word" android:layout_alignParentLeft="true" style="@style/TextThemeLight.Small" />
+        <ImageButton android:id="@id/dictionary_speaker" android:background="@android:color/transparent" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_speaker" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dictionary_content_failed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Oops! Network fail!" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/dictionary_close" android:background="@android:color/transparent" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rainbowedu.toeicguru.ui.customview.SquareLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">
+    <com.rainbowedu.toeicguru.ui.customview.AnswerLayout android:gravity="center" android:id="@id/lesson_review_answer_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lesson_review_question_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/QuestionReviewLabel" />
+    </com.rainbowedu.toeicguru.ui.customview.AnswerLayout>
+</com.rainbowedu.toeicguru.ui.customview.SquareLinearLayout>

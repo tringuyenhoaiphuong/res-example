@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rainbowedu.toeicguru.ui.customview.ValidateLinearLayout android:orientation="vertical" android:id="@id/sub_question_validate_region" style="@style/FrameBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/question_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/question_answer_view" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/QuestionSection" />
+    <LinearLayout android:orientation="vertical" android:id="@id/question_explanation_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ExplanationWrapper" />
+    <LinearLayout android:orientation="vertical" android:id="@id/question_sub_question" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.rainbowedu.toeicguru.ui.customview.ValidateLinearLayout>

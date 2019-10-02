@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:toeicguru="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true" android:color="#ffffffff" toeicguru:state_answer_is_right="true" />
+    <item android:state_selected="false" android:color="#ff98cc27" toeicguru:state_answer_is_right="true" />
+    <item android:state_selected="true" android:color="#ffffffff" />
+    <item android:color="#ffcccccc" />
+</selector>

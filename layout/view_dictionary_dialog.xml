@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/switcher" android:padding="@dimen/spacing_normal" android:paddingTop="@dimen/spacing_thinness" android:paddingBottom="@dimen/spacing_thinness" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/dict_current_word" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Dictionary" android:layout_toLeftOf="@id/dict_btn_enter_word" android:layout_alignParentLeft="true" style="@style/TextThemeLight.Large" />
+            <ImageButton android:id="@id/dict_btn_enter_word" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.rainbowedu.toeicguru.customfont.CustomFontEditText android:id="@id/dict_edit_view_word" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Text to translate" android:singleLine="true" android:imeOptions="actionDone" style="@style/TextThemeLight.Large" />
+    </ViewSwitcher>
+    <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/dictionary_loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_normal" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_circle_small" />
+        <RelativeLayout android:id="@id/dictionary_content_failed" android:padding="@dimen/spacing_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Oops! Network fail!" style="@style/TextThemeLight.XLarge" />
+        </RelativeLayout>
+        <com.rainbowedu.toeicguru.ui.customview.MaxHeightScrollView android:id="@id/dict_main_content_scrollview" android:padding="@dimen/spacing_normal" android:paddingBottom="0.0dip" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_normal" android:fadeScrollbars="false" android:overScrollMode="never" style="@style/ScrollBarCustom">
+            <RelativeLayout android:id="@id/dictionary_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/dictionary_source_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/dictionary_speaker" style="@style/TextThemeLight.Large" />
+                <ImageButton android:id="@id/dictionary_favorite" android:background="@android:color/transparent" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_star_inactive" android:layout_toRightOf="@id/dictionary_source_word" />
+                <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/dictionary_meaning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dictionary_source_word" android:layout_alignParentLeft="true" style="@style/TextThemeLight.Small" />
+                <ImageButton android:id="@id/dictionary_speaker" android:background="@android:color/transparent" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_speaker" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </com.rainbowedu.toeicguru.ui.customview.MaxHeightScrollView>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_media_player" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MediaPlayerWrapper"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">"
+<ImageView android:id="@id/question_media_controller" android:src="@drawable/ic_sound_play" style="@style/MediaPlayerControl" />
+    <SeekBar android:id="@id/question_media_seekbar" style="@style/MediaPlayerSeekBar" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/question_media_timing" android:text="0:00/0:00" style="@style/MediaPlayerTiming" />
+</RelativeLayout>

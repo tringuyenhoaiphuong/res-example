@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/online_store_package_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListView" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/online_store_loading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_circle_large" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connecting" style="@style/TextThemeLight.Large" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/online_store_network_problem" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_network_problem" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No connection, please retry" style="@style/TextThemeLight.Large" />
+    </LinearLayout>
+</LinearLayout>

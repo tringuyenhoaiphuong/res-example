@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="home" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="sdl__positive_button" />
+    <item type="id" name="sdl__neutral_button" />
+    <item type="id" name="sdl__negative_button" />
+    <item type="id" name="nav_icon_apps" />
+    <item type="id" name="nav_name_apps" />
+    <item type="id" name="nav_des_apps" />
+    <item type="id" name="drawer_layout" />
+    <item type="id" name="drawer_content" />
+    <item type="id" name="drawer" />
+    <item type="id" name="listview_practices" />
+    <item type="id" name="categoryIcon" />
+    <item type="id" name="categoryName" />
+    <item type="id" name="categoryHeadName" />
+    <item type="id" name="categoryProgressBar" />
+    <item type="id" name="categoryProgressNumber" />
+    <item type="id" name="categoryProgressPercent" />
+    <item type="id" name="textSeparator" />
+    <item type="id" name="lessonName" />
+    <item type="id" name="lessonStatusIcon" />
+    <item type="id" name="lessonScoreIcon" />
+    <item type="id" name="lessonWaitingView" />
+    <item type="id" name="lessonProgressBar" />
+    <item type="id" name="lessonFinishScore" />
+    <item type="id" name="lessonFinishDate" />
+    <item type="id" name="lessonQuestionNumber" />
+    <item type="id" name="gridViewLesson" />
+    <item type="id" name="lessonItemViewGroup" />
+    <item type="id" name="main_content" />
+    <item type="id" name="lesson_content" />
+    <item type="id" name="question_content_view" />
+    <item type="id" name="question_answer_view" />
+    <item type="id" name="question_content_image" />
+    <item type="id" name="question_media_seekbar" />
+    <item type="id" name="question_media_timing" />
+    <item type="id" name="question_media_controller" />
+    <item type="id" name="question_content_raw_text" />
+    <item type="id" name="answer_label" />
+    <item type="id" name="answer_content" />
+    <item type="id" name="question_explanation_view" />
+    <item type="id" name="item_explanation" />
+    <item type="id" name="question_answer_explanation_list" />
+    <item type="id" name="question_sub_question" />
+    <item type="id" name="question_fragment_content" />
+    <item type="id" name="question_content_html_text" />
+    <item type="id" name="question_content_rich_html_text" />
+    <item type="id" name="view_media_player" />
+    <item type="id" name="fragment_practice_less_container" />
+    <item type="id" name="status_current_question_number" />
+    <item type="id" name="scrollbar_lesson_content" />
+    <item type="id" name="lesson_review_name" />
+    <item type="id" name="lesson_review_category_name" />
+    <item type="id" name="lesson_review_score" />
+    <item type="id" name="lesson_review_grid_questions" />
+    <item type="id" name="lesson_review_score_wrapper" />
+    <item type="id" name="lesson_review_button_reset" />
+    <item type="id" name="practice_lesson_submit_question" />
+    <item type="id" name="lesson_review_answer_layout" />
+    <item type="id" name="lesson_review_question_number" />
+    <item type="id" name="question_review_content" />
+    <item type="id" name="question_review_scroll_view" />
+    <item type="id" name="fragment_test_less_container" />
+    <item type="id" name="test_lesson_submit_question" />
+    <item type="id" name="status_remaining_time" />
+    <item type="id" name="empty_view" />
+    <item type="id" name="empty_icon" />
+    <item type="id" name="online_store_package_list" />
+    <item type="id" name="online_store_loading" />
+    <item type="id" name="empty_store_button" />
+    <item type="id" name="online_store_network_problem" />
+    <item type="id" name="online_store_package_status_icon" />
+    <item type="id" name="online_store_package_name" />
+    <item type="id" name="online_store_package_description" />
+    <item type="id" name="online_store_package_size" />
+    <item type="id" name="lesson_loading_view" />
+    <item type="id" name="nav_drawer_item_icon" />
+    <item type="id" name="nav_drawer_item_name" />
+    <item type="id" name="status_elapsed_time" />
+    <item type="id" name="lesson_review_time_spent" />
+    <item type="id" name="lesson_review_finished_date" />
+    <item type="id" name="statistics_correction_rate_chart" />
+    <item type="id" name="statistics_correction_duration_chart" />
+    <item type="id" name="statistics_correction_duration_total" />
+    <item type="id" name="statistics_correction_duration_average_reading" />
+    <item type="id" name="statistics_correction_duration_average_listening" />
+    <item type="id" name="admod_banner_view" />
+    <item type="id" name="admod" />
+    <item type="id" name="online_store_package_menu_icon" />
+    <item type="id" name="sub_question_content_answer_separator" />
+    <item type="id" name="sub_question_view_outer" />
+    <item type="id" name="sub_question_view_outer_header" />
+    <item type="id" name="sub_question_view_outer_footer" />
+    <item type="id" name="sub_question_validate_region" />
+    <item type="id" name="online_store_package_premium" />
+    <item type="id" name="dictionary_source_word" />
+    <item type="id" name="dictionary_meaning" />
+    <item type="id" name="dictionary_speaker" />
+    <item type="id" name="dictionary_view" />
+    <item type="id" name="dictionary_close" />
+    <item type="id" name="dictionary_viewholder" />
+    <item type="id" name="dictionary_loading_view" />
+    <item type="id" name="dictionary_content_view" />
+    <item type="id" name="dictionary_content_failed" />
+    <item type="id" name="dialog_capcha_image" />
+    <item type="id" name="dictionary_favorite" />
+    <item type="id" name="dictionary_history" />
+    <item type="id" name="history_source_word" />
+    <item type="id" name="history_favorite" />
+    <item type="id" name="history_meaning" />
+    <item type="id" name="favorite_source_word" />
+    <item type="id" name="favorite_meaning" />
+    <item type="id" name="lv_favoriteword" />
+    <item type="id" name="widget_source_word" />
+    <item type="id" name="widget_meaning" />
+    <item type="id" name="widget_refresh" />
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="split_action_bar">false</item>
+    <item type="id" name="action_bar_overlay_layout">false</item>
+    <item type="id" name="top_action_bar">false</item>
+    <item type="id" name="up">false</item>
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="dialog_capcha_answer">false</item>
+    <item type="id" name="list_item_text">false</item>
+    <item type="id" name="sdl__button_panel">false</item>
+    <item type="id" name="dialog_horizontal_separator">false</item>
+    <item type="id" name="dialog_button_panel">false</item>
+    <item type="id" name="dialog_button_separator">false</item>
+    <item type="id" name="sdl__customPanel">false</item>
+    <item type="id" name="sdl__custom">false</item>
+    <item type="id" name="sdl__datepicker">false</item>
+    <item type="id" name="sdl__listview">false</item>
+    <item type="id" name="sdl__contentPanel">false</item>
+    <item type="id" name="sdl__message">false</item>
+    <item type="id" name="sdl__progressPanel">false</item>
+    <item type="id" name="sdl__progress">false</item>
+    <item type="id" name="sdl__title">false</item>
+    <item type="id" name="sdl__titleDivider">false</item>
+    <item type="id" name="sdl__content">false</item>
+    <item type="id" name="progressBar1">false</item>
+    <item type="id" name="txt_delete">false</item>
+    <item type="id" name="txt_undo">false</item>
+    <item type="id" name="switcher">false</item>
+    <item type="id" name="dict_current_word">false</item>
+    <item type="id" name="dict_btn_enter_word">false</item>
+    <item type="id" name="dict_edit_view_word">false</item>
+    <item type="id" name="dict_main_content_scrollview">false</item>
+    <item type="id" name="buttons">false</item>
+    <item type="id" name="widget_settings">false</item>
+    <item type="id" name="widget_words">false</item>
+    <item type="id" name="action_settings">false</item>
+    <item type="id" name="favoriteword_lookuphistory">false</item>
+</resources>

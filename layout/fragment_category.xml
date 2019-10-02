@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/background_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.rainbowedu.toeicguru.ui.customview.ExpandableHeightGridView android:id="@id/gridViewLesson" style="@style/GridView" />
+    <RelativeLayout android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="90.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_lesson_icon" style="@style/TextNoLessonIcon" />
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_lesson_title" style="@style/TextNoLessonTitle" />
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_lesson_des" style="@style/TextNoLessonDesc" />
+        </LinearLayout>
+        <RelativeLayout style="@style/ButtonWrapper">
+            <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/empty_store_button" android:text="@string/download_lesson_go" style="@style/ButtonCircle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

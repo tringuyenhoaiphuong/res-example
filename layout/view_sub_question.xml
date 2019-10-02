@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sub_question_view_outer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sub_question_view_outer_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.rainbowedu.toeicguru.ui.customview.ValidateLinearLayout android:orientation="vertical" android:id="@id/sub_question_validate_region" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/QuestionSubSection">
+        <LinearLayout android:orientation="vertical" android:id="@id/question_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/sub_question_content_answer_separator" android:visibility="gone" style="@style/QuestionSubLine" />
+        <LinearLayout android:orientation="vertical" android:id="@id/question_answer_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/question_explanation_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View style="@style/QuestionSubLine" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/question_sub_question" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.rainbowedu.toeicguru.ui.customview.ValidateLinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sub_question_view_outer_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

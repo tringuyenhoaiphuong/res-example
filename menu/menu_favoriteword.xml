@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu tools:context="com.rainbowedu.toeicguru.MainActivity"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_history_white_24dp" android:id="@id/favoriteword_lookuphistory" android:orderInCategory="10" android:title="Word Lookup History" app:showAsAction="always" />
+</menu>

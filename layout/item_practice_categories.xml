@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/ListViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/categoryIcon" android:src="@drawable/ic_launcher" style="@style/ImageView.Vertical" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/categoryHeadName" android:text="Head name" style="@style/CategoryName" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/categoryName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Long name" android:layout_toLeftOf="@id/categoryProgressBar" android:layout_below="@id/categoryHeadName" android:layout_alignLeft="@id/categoryHeadName" style="@style/TextThemeLight.Small" />
+    <ProgressBar android:id="@id/categoryProgressBar" style="@style/CategoryProgressBar" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/categoryProgressNumber" android:text="30/40" style="@style/CategoryProgressNumber" />
+    <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/categoryProgressPercent" android:text="80%" style="@style/CategoryProgressPercent" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:toeicguru="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/card_frame_invalidate" toeicguru:state_invalidate="true" />
+    <item android:drawable="@drawable/card_frame_index_question" toeicguru:state_index_question="true" />
+    <item android:drawable="@drawable/card_frame" />
+</selector>

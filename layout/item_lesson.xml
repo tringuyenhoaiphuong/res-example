@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rainbowedu.toeicguru.ui.customview.SquareLinearLayout android:orientation="vertical" android:id="@id/lessonItemViewGroup" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FrameCard.Pressed"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:customfonts="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.35">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lessonName" android:text="\#1" style="@style/LessonName" />
+        <View android:background="@color/color_secondary" android:layout_width="20.0dip" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.45">
+        <ImageView android:id="@id/lessonStatusIcon" android:src="@drawable/lesson_icon_default" style="@style/LessonStatusIcon" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lessonFinishScore" android:visibility="gone" android:text="970" style="@style/LessonFinishScore" />
+        <ImageView android:id="@id/lessonScoreIcon" android:src="@drawable/lesson_icon_score" style="@style/ImageView.Horizontal" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2">
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lessonFinishDate" android:visibility="gone" android:text="22nd Sep" style="@style/infoBottom" />
+        <com.rainbowedu.toeicguru.customfont.CustomFontTextView android:id="@id/lessonQuestionNumber" android:visibility="gone" android:text="20 Question" style="@style/infoBottom" />
+        <ProgressBar android:id="@id/lessonProgressBar" style="@style/lessonProgressBar" />
+    </LinearLayout>
+</com.rainbowedu.toeicguru.ui.customview.SquareLinearLayout>

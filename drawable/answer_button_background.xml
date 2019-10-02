@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:toeicguru="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true" android:drawable="@drawable/answer_button_background_right" toeicguru:state_answer_is_right="true" />
+    <item android:state_selected="false" android:drawable="@drawable/answer_button_background_right_not_selected" toeicguru:state_answer_is_right="true" />
+    <item android:state_selected="true" android:drawable="@drawable/answer_button_background_wrong" toeicguru:state_answer_is_wrong="true" />
+    <item android:state_selected="true" android:drawable="@drawable/answer_button_background_pressed" />
+    <item android:drawable="@drawable/answer_button_background_normal" />
+</selector>
